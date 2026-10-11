@@ -1,0 +1,18 @@
+# Tested by the developer with Python 3.12, torch 2.14.1+cu130 on RTX 5070 Ti Laptop GPU.
+# Install a CUDA-compatible torch/torchvision wheel separately for your machine.
+accelerate
+bitsandbytes
+datasets
+huggingface_hub
+ipykernel
+jupyterlab
+matplotlib
+numpy
+opencv-python-headless
+peft
+pillow
+safetensors
+scikit-learn
+seaborn
+transformers
+triton

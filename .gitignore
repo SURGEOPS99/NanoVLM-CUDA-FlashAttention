@@ -1,0 +1,48 @@
+# Python and Jupyter
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+*.ipynb.bak
+*.local.ipynb
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Tokens / secrets
+.env
+.env.*
+!.env.example
+*credentials*
+*.pem
+*.key
+
+# Do not commit checkpoints, base weights, or private/restricted medical data
+nanovlm-medical-checkpoints/
+nanovlm-medic-adapter/
+checkpoints/
+outputs/
+logs/
+wandb/
+runs/
+data/
+*.safetensors
+*.bin
+*.pt
+*.pth
+*.ckpt
+*.gguf
+*.onnx
+*.parquet
+*.arrow
+*.csv
+*.tsv
+*.jsonl
+*.zip
+*.tar
+*.tar.gz
+# Any large generated datasets and caches
+.cache/
+hf_cache/
+results/private/
